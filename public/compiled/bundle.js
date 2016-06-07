@@ -48,6 +48,8 @@
 
 	__webpack_require__(1);
 
+	__webpack_require__(171);
+
 /***/ },
 /* 1 */
 /***/ function(module, exports, __webpack_require__) {
@@ -20376,31 +20378,67 @@
 	  },
 	  render: function render() {
 	    return _react2.default.createElement(
-	      'div',
+	      'table',
 	      null,
 	      _react2.default.createElement(
-	        'div',
+	        'tbody',
 	        null,
-	        'Sunrise time: ',
-	        this.state.sunrise
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        null,
-	        'Sunset time: ',
-	        this.state.sunset
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        null,
-	        'Current temperature: ',
-	        this.state.temperature
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        null,
-	        'Requests: ',
-	        this.state.requests
+	        _react2.default.createElement(
+	          'tr',
+	          null,
+	          _react2.default.createElement(
+	            'td',
+	            null,
+	            'Sunrise time'
+	          ),
+	          _react2.default.createElement(
+	            'td',
+	            null,
+	            this.state.sunrise
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'tr',
+	          null,
+	          _react2.default.createElement(
+	            'td',
+	            null,
+	            'Sunset time'
+	          ),
+	          _react2.default.createElement(
+	            'td',
+	            null,
+	            this.state.sunset
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'tr',
+	          null,
+	          _react2.default.createElement(
+	            'td',
+	            null,
+	            'Current temperature'
+	          ),
+	          _react2.default.createElement(
+	            'td',
+	            null,
+	            this.state.temperature
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'tr',
+	          null,
+	          _react2.default.createElement(
+	            'td',
+	            null,
+	            'Requests'
+	          ),
+	          _react2.default.createElement(
+	            'td',
+	            null,
+	            this.state.requests
+	          )
+	        )
 	      )
 	    );
 	  }
@@ -20853,6 +20891,12 @@
 	module.exports = global.fetch;
 	}.call(global));
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
+
+/***/ },
+/* 171 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
 
 /***/ }
 /******/ ]);
